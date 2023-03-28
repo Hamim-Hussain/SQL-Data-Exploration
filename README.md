@@ -19,7 +19,7 @@ Download the following files to help you get started:
 
 Module 9 Challenge filesLinks to an external site.
 
-# Instructions
+## Instructions
 This Challenge is divided into three parts: data modeling, data engineering, and data analysis.
 
 ## Data Modeling
@@ -36,7 +36,7 @@ Be sure to create the tables in the correct order to handle the foreign keys.
 
 Import each CSV file into its corresponding SQL table.
 
-# HINT
+## HINT
 To avoid errors, import the data in the same order as the corresponding tables got created. And, remember to account for the headers when doing the imports.
 Data Analysis
 
