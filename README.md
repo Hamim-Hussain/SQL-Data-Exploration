@@ -2,7 +2,7 @@
 <img src="images/sql.JPG" width="1000" height="400">
 
 ## Background
-In this data exploration project, we delve into Pewlett Hackard's employee data from the 1980s and 1990s. The primary objective is to design and analyze a SQL database containing information from six CSV files. This process encompasses data modeling, engineering, and analysis. The project's structure is divided into three phases:
+In this data exploration project, we delve into Pewlett Hackard's employee data from the 1980s and 1990s. The primary objective is to design and analyse a SQL database containing information from six CSV files. This process encompasses data modeling, engineering, and analysis. The project's structure is divided into three phases:
 
 ### Data Modeling:
 The first step involves inspecting the provided CSV files and creating an Entity Relationship Diagram (ERD). This ERD visually represents the relationships between the tables that will be constructed to store the data.
