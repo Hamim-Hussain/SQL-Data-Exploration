@@ -1,5 +1,5 @@
 # SQL Data Exploration: Pewlett Hackard Employee Database
-<img src="images/sql.JPG" width="1000" height="491">
+<img src="images/sql.JPG" width="1000" height="400">
 
 ## Background
 In this data exploration project, we delve into Pewlett Hackard's employee data from the 1980s and 1990s. The primary objective is to design and analyze a SQL database containing information from six CSV files. This process encompasses data modeling, engineering, and analysis. The project's structure is divided into three phases:
