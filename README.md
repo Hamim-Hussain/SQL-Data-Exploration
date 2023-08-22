@@ -6,7 +6,7 @@ In this data exploration project, we delve into Pewlett Hackard's employee data 
 ### Data Modeling:
 The first step involves inspecting the provided CSV files and creating an Entity Relationship Diagram (ERD). This ERD visually represents the relationships between the tables that will be constructed to store the data.
 
-![EDR](EDR.JPG)
+![EDR](EDR.png)
 
 ### Data Engineering:
 Building on the ERD, we move on to creating the table schema for each CSV file. This involves specifying data types, primary keys, foreign keys, and any other constraints necessary for accurate data representation. Importing the CSV data into their respective SQL tables is also a part of this phase.
