@@ -1,57 +1,32 @@
-# SQL-Challenge
+# SQL Data Exploration: Pewlett Hackard Employee Database
 
 ## Background
-It’s been two weeks since you were hired as a new data engineer at Pewlett Hackard (a fictional company). Your first major task is to do a research project about people whom the company employed during the 1980s and 1990s. All that remains of the employee database from that period are six CSV files.
+In this data exploration project, we delve into Pewlett Hackard's employee data from the 1980s and 1990s. The primary objective is to design and analyze a SQL database containing information from six CSV files. This process encompasses data modeling, engineering, and analysis. The project's structure is divided into three phases:
 
-For this project, you’ll design the tables to hold the data from the CSV files, import the CSV files into a SQL database, and then answer questions about the data. That is, you’ll perform data modeling, data engineering, and data analysis, respectively.
+### Data Modeling:
+The first step involves inspecting the provided CSV files and creating an Entity Relationship Diagram (ERD). This ERD visually represents the relationships between the tables that will be constructed to store the data.
 
-## Before You Begin
-Create a new repository for this project called sql-challenge. Do not add this assignment to an existing repository.
+![EDR](EDR.JPG)
 
-Clone the new repository to your computer.
+### Data Engineering:
+Building on the ERD, we move on to creating the table schema for each CSV file. This involves specifying data types, primary keys, foreign keys, and any other constraints necessary for accurate data representation. Importing the CSV data into their respective SQL tables is also a part of this phase.
 
-Inside your local Git repository, create a directory for this Challenge. Use a folder name that corresponds to the Challenge, such as EmployeeSQL.
+### Data Analysis:
+The final phase focuses on extracting meaningful insights from the constructed database. A series of queries are applied to the data to answer specific questions:
+Listing employee numbers, last names, first names, sexes, and salaries of each employee.
 
-Note that you’ll add your files to this folder and push the changes to GitHub.
+1. Listing first names, last names, and hire dates of employees hired in 1986.
+2. Listing managers of departments alongside department numbers, names, and employee details.
+3. Listing department numbers, employee numbers, last names, first names, and department names for each employee.
+4. Listing first names, last names, and sexes of employees named Hercules with last names starting with 'B'.
+5. Listing employees in the Sales department with their employee numbers, last names, and first names.
+6. Listing employees in both the Sales and Development departments with their details.
+7. Listing frequency counts of employee last names in descending order to determine name popularity.
 
-## Files
-Download the following files to help you get started:
+This SQL data exploration project seeks to provide insights into Pewlett Hackard's historical employee data, offering an opportunity to better understand employment trends, departmental structures, and name occurrences within the organization.'
 
-Module 9 Challenge filesLinks to an external site.
 
-## Instructions
-This Challenge is divided into three parts: data modeling, data engineering, and data analysis.
 
-## Data Modeling
-Inspect the CSV files, and then sketch an Entity Relationship Diagram of the tables. To create the sketch, feel free to use a tool like QuickDBDLinks to an external site..
 
-## Data Engineering
-Use the provided information to create a table schema for each of the six CSV files. Be sure to do the following:
 
-Remember to specify the data types, primary keys, foreign keys, and other constraints.
 
-For the primary keys, verify that the column is unique. Otherwise, create a composite keyLinks to an external site., which takes two primary keys to uniquely identify a row.
-
-Be sure to create the tables in the correct order to handle the foreign keys.
-
-Import each CSV file into its corresponding SQL table.
-
-## HINT
-To avoid errors, import the data in the same order as the corresponding tables got created. And, remember to account for the headers when doing the imports.
-Data Analysis
-
-1. List the employee number, last name, first name, sex, and salary of each employee.
-
-2. List the first name, last name, and hire date for the employees who were hired in 1986.
-
-3. List the manager of each department along with their department number, department name, employee number, last name, and first name.
-
-4. List the department number for each employee along with that employee’s employee number, last name, first name, and department name.
-
-5. List first name, last name, and sex of each employee whose first name is Hercules and whose last name begins with the letter B.
-
-6. List each employee in the Sales department, including their employee number, last name, and first name.
-
-7. List each employee in the Sales and Development departments, including their employee number, last name, first name, and department name.
-
-8. List the frequency counts, in descending order, of all the employee last names (that is, how many employees share each last name).
